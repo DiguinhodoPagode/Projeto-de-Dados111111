@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pesquisa de Satisfação</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Pesquisa de Satisfação</h1>
+    <p>Por favor, responda sinceramente às perguntas abaixo.</p>
+  </header>
+
+  <main class="container">
+    <form id="formPesquisa">
+      <h2>Dados do Participante</h2>
+
+      <label>Nome completo:</label>
+      <input type="text" id="nome" required>
+
+      <label>Email:</label>
+      <input type="email" id="email" required>
+
+      <label>Data de nascimento:</label>
+      <input type="date" id="nascimento" required>
+
+      <h2>Questionário</h2>
+
+      <div class="pergunta">
+        <h3>1. Você está satisfeito com o atendimento recebido?</h3>
+        <div class="opcoes">
+          <label><input type="radio" name="p1" value="Muito Insatisfeito" required> Muito insatisfeito</label>
+          <label><input type="radio" name="p1" value="Insatisfeito"> Insatisfeito</label>
+          <label><input type="radio" name="p1" value="Neutro"> Neutro</label>
+          <label><input type="radio" name="p1" value="Satisfeito"> Satisfeito</label>
+          <label><input type="radio" name="p1" value="Muito Satisfeito"> Muito satisfeito</label>
+        </div>
+      </div>
+
+      <div class="pergunta">
+        <h3>2. O tempo de espera foi adequado?</h3>
+        <div class="opcoes">
+          <label><input type="radio" name="p2" value="Muito Insatisfeito" required> Muito insatisfeito</label>
+          <label><input type="radio" name="p2" value="Insatisfeito"> Insatisfeito</label>
+          <label><input type="radio" name="p2" value="Neutro"> Neutro</label>
+          <label><input type="radio" name="p2" value="Satisfeito"> Satisfeito</label>
+          <label><input type="radio" name="p2" value="Muito Satisfeito"> Muito satisfeito</label>
+        </div>
+      </div>
+
+      <div class="pergunta">
+        <h3>3. A qualidade do serviço atendeu às suas expectativas?</h3>
+        <div class="opcoes">
+          <label><input type="radio" name="p3" value="Muito Insatisfeito" required> Muito insatisfeito</label>
+          <label><input type="radio" name="p3" value="Insatisfeito"> Insatisfeito</label>
+          <label><input type="radio" name="p3" value="Neutro"> Neutro</label>
+          <label><input type="radio" name="p3" value="Satisfeito"> Satisfeito</label>
+          <label><input type="radio" name="p3" value="Muito Satisfeito"> Muito satisfeito</label>
+        </div>
+      </div>
+
+      <div class="pergunta">
+        <h3>4. Como você avalia o ambiente e as instalações?</h3>
+        <div class="opcoes">
+          <label><input type="radio" name="p4" value="Muito Insatisfeito" required> Muito insatisfeito</label>
+          <label><input type="radio" name="p4" value="Insatisfeito"> Insatisfeito</label>
+          <label><input type="radio" name="p4" value="Neutro"> Neutro</label>
+          <label><input type="radio" name="p4" value="Satisfeito"> Satisfeito</label>
+          <label><input type="radio" name="p4" value="Muito Satisfeito"> Muito satisfeito</label>
+        </div>
+      </div>
+
+      <div class="pergunta">
+        <h3>5. O preço cobrado foi justo pelo serviço oferecido?</h3>
+        <div class="opcoes">
+          <label><input type="radio" name="p5" value="Muito Insatisfeito" required> Muito insatisfeito</label>
+          <label><input type="radio" name="p5" value="Insatisfeito"> Insatisfeito</label>
+          <label><input type="radio" name="p5" value="Neutro"> Neutro</label>
+          <label><input type="radio" name="p5" value="Satisfeito"> Satisfeito</label>
+          <label><input type="radio" name="p5" value="Muito Satisfeito"> Muito satisfeito</label>
+        </div>
+      </div>
+
+      <div class="pergunta">
+        <h3>6. Você recomendaria nosso serviço para outras pessoas?</h3>
+        <div class="opcoes">
+          <label><input type="radio" name="p6" value="Muito Insatisfeito" required> Muito insatisfeito</label>
+          <label><input type="radio" name="p6" value="Insatisfeito"> Insatisfeito</label>
+          <label><input type="radio" name="p6" value="Neutro"> Neutro</label>
+          <label><input type="radio" name="p6" value="Satisfeito"> Satisfeito</label>
+          <label><input type="radio" name="p6" value="Muito Satisfeito"> Muito satisfeito</label>
+        </div>
+      </div>
+
+      <button type="submit">Enviar Respostas</button>
+    </form>
+  </main>
+
+  <footer>
+    <a href="admin.html">Acesso do Administrador</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
